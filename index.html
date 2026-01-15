@@ -9,8 +9,8 @@
 			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="styles.css" />
-		<script src="https://unpkg.com/axios@1.13.2/dist/axios.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+		<link rel="stylesheet" href="src/styles.css" />
 		<title>My weather application</title>
 	</head>
 	<body>
@@ -38,7 +38,8 @@
 					</div>
 					<div class="current-temperature">
 						<span class="current-temperature-icon">☀️</span
-						><span class="current-temperature-value">24</span
+						><span class="current-temperature-value" id="current-temperature"
+							>24</span
 						><span class="current-temperature-unit">°C</span>
 					</div>
 				</div>
@@ -46,12 +47,23 @@
 			<footer>
 				<p>
 					This project was coded by
-					<a href="#" target="_blank">Matt Delac</a> and is
-					<a href="#" target="_blank"> on GitHub</a> and
-					<a href="#" target="_blank">hosted on Netlify</a>
+					<a href="https://github.com/clkaha" target="_blank">Claire H</a> and
+					is
+					<a
+						href="https://github.com/clkaha/she-codes-weather-app"
+						target="_blank"
+					>
+						on GitHub</a
+					>
+					and
+					<a
+						href="https://gleaming-starship-8d6caf.netlify.app/"
+						target="_blank"
+						>hosted on Netlify</a
+					>
 				</p>
 			</footer>
 		</div>
 	</body>
-	<script src="script.js"></script>
+	<script src="src/index.js"></script>
 </html>
